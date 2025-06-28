@@ -79,7 +79,7 @@ Draw interactions between actors and use cases.
 - Help in identifying and organizing system requirements.
 - Facilitate communication among stakeholders and development team.
 
-![booking](images/alx-booking-uc.png)
+![booking](alx-booking-uc.png)
 
 ## Acceptance Criteria ✅
 Objective: Establishing clear criteria for feature completion.
