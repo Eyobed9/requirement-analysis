@@ -60,3 +60,50 @@ Scalability: The system should be able to scale horizontally to handle increased
 Usability: The application should have an intuitive UI/UX, making it easy for users to navigate and perform tasks.
 Reliability: The system should have an uptime of 99.9% and recover quickly from any failures.
 Requirement Analysis
+
+## Use Case Diagrams
+Objective: Visual representation of interactions between users and the system.
+
+### What are Use Case Diagrams?
+
+Use case diagrams show how different users (actors) interact with the system to achieve specific goals (use cases).
+
+### Creating Use Case Diagrams:
+
+Identify actors (e.g., guest, registered user, admin).
+Define use cases (e.g., search properties, book property, manage listings).
+Draw interactions between actors and use cases.
+### Benefits of Use Case Diagrams:
+
+- Provide a clear visual representation of system functionalities.
+- Help in identifying and organizing system requirements.
+- Facilitate communication among stakeholders and development team.
+
+![booking](images/alx-booking-uc.png)
+
+## Acceptance Criteria ✅
+Objective: Establishing clear criteria for feature completion.
+
+### What is Acceptance Criteria?
+
+Acceptance criteria are conditions that a feature must meet to be accepted by the stakeholders.
+### How to Define Acceptance Criteria:
+
+Be specific and measurable.
+Include functional and non-functional aspects.
+Example for Booking System: “Users should be able to select available dates, confirm booking, and receive a confirmation email within 2 minutes.”
+### Benefits of Acceptance Criteria:
+
+Ensure all parties have a clear understanding of feature requirements.
+Provide a basis for testing and validation.
+Help in maintaining quality and meeting user expectations.
+
+Example:-Scenario: Guest checks out of their room
+  Given the guest has an active booking and is checked in
+  When the guest checks out
+  Then the system should record the checkout time
+  And update the booking status to "Checked Out"
+  And update the room status to "Available"
+  And calculate any remaining balance
+  And process the guest's final payment
+  And generate a receipt for the stay
