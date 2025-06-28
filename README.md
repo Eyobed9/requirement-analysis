@@ -1,2 +1,2 @@
-# requirement-analysis
-Requirement Analysis in Software Development.
+# Requirement Analysis in Software Development
+This repository is created for requirement analysis.
